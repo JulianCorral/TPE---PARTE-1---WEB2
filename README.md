@@ -5,4 +5,3 @@ Integrantes: Candela Agostina Rodriguez, Julian Corral.
 
 Nuestro trabajo se basa en una pagina de generos de videojuegos, el cual contiene una base de datos que contiene dos tablas, una de ellas "Generos" y la otra "Videojuegos", dichas tablas se conectan entre si mediante el ID_Genero, la relacion es 1 a N, en la cual un genero puede tener muchos videojuegos y un videojuego solo puede tener un genero.
 
-![DIAGRAMA - BASE DE DATOS](https://github.com/user-attachments/assets/ba05132d-b120-4575-a0de-5f6c9667f3c3)
