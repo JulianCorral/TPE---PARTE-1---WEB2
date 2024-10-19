@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 14-09-2024 a las 19:28:50
+-- Tiempo de generación: 07-10-2024 a las 17:32:52
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -46,6 +46,25 @@ INSERT INTO `generos` (`Genero_ID`, `Edad`, `Genero`, `Descripcion`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `ID_user` int(11) NOT NULL,
+  `user` varchar(45) NOT NULL,
+  `password` char(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`ID_user`, `user`, `password`) VALUES
+(2, 'webadmin', '$2y$10$EbsqNdgSpWfBqk8K7dDui.frfbiP5zGsV3qbHRZnSf55Rmw8ipGVy');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `videojuegos`
 --
 
@@ -78,6 +97,12 @@ ALTER TABLE `generos`
   ADD PRIMARY KEY (`Genero_ID`);
 
 --
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`ID_user`);
+
+--
 -- Indices de la tabla `videojuegos`
 --
 ALTER TABLE `videojuegos`
@@ -93,6 +118,12 @@ ALTER TABLE `videojuegos`
 --
 ALTER TABLE `generos`
   MODIFY `Genero_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `ID_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `videojuegos`
