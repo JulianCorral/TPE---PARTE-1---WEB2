@@ -14,4 +14,5 @@ Para acceder a las funciones de administrador debera loguearse en la seccion "lo
 Usser: webadmin
 Password: admin
 
+![DIAGRAMA - BASE DE DATOS TP-PARTE-2](https://github.com/user-attachments/assets/36f88ce7-9c5f-4a87-9614-41477953a5ee)
 
