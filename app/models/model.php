@@ -66,7 +66,7 @@ class Model {
             --
 
             INSERT INTO usuarios (ID_user, user, password) VALUES
-            (3, 'webadmin', '$2y$10$EbsqNdgSpWfBqk8K7dDui.frfbiP5zGsV3qbHRZnSf55Rmw8ipGVy');
+            (3, 'webadmin', '$2y$10$1TvplMsRc9lE/jCAR9K2DONf6XiFqMyVL8Cju7jNTALvww763XvHa');
 
             -- --------------------------------------------------------
 
